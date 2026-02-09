@@ -1,0 +1,88 @@
+# =========================
+# Python core
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# =========================
+# Data folders (IMPORTANT)
+# =========================
+data/
+datasets/
+raw_data/
+processed_data/
+
+# =========================
+# Data files & artifacts
+# =========================
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.orc
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# =========================
+# Dask / Distributed
+# =========================
+dask-worker-space/
+*.lock
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / cache
+# =========================
+.build/
+dist/
+build/
+.eggs/
+*.egg-info/
+.cache/
+.mypy_cache/
+.pytest_cache/
